@@ -62,10 +62,43 @@ let name = "Igor";
 
 // Comparison operator
 
-let User1 = 11;
-if (User1 > 12) {
-    alert('Hellow')
+// let User1 = 11;
+// if (User1 > 12) {
+//     alert('Hellow')
+// }
+// else{
+//     console.log('HELLOW')
+// }
+
+
+//Logical operator* ||  &&
+
+// let User1 = 18;
+// let User2 = 'Max';
+
+// if (User1 === 13 || User2 === 'Max'){
+//     alert('Home');
+// }else{
+//     alert('Name')
+// };
+
+
+// String operators
+
+console.log('my '+'name');
+
+
+// Delete
+
+let obj = {
+    name:'Sava',
+    age: 15,
 }
-else{
-    console.log('HELLOW')
-}
+
+// delete obj.age;
+// console.log(obj);
+
+
+// In
+
+console.log('name' in  obj);
